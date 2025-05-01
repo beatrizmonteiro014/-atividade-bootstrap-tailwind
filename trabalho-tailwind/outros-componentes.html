@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Outros componentes</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body class="bg-info">
+
+        <nav class="navbar navbar-expand-lg bg-body-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Viagens dos Sonhos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Outros componentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tailwind.html">Tailwind</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Preço
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Pacotes</a></li>
+                      <li><a class="dropdown-item" href="#">Viajem solo</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav> 
+
+        <div class="container mt-5 align-items-center">
+          <h2>Outros componentes</h2>
+        </div>
+        
+        
+        <div class="accordion accordion-flush" id="accordionFlushExample align-items-center">
+          <div class="accordion-item align-items-center">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Placeholders
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Um site de viagens com conteúdo estático,não há necessidade de simular carregamento, já que todas as informações estão disponíveis desde o início. </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Progress
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Não foi incluído pois não há tarefas ou processos em andamento que justifiquem o uso de uma barra de progresso.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Scrollspy
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Não foi utilizado porque a página não tem navegação por seções longas que exijam atualização automática de links ao rolar.</div>
+            </div>
+          </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Tooltips
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Não foi incluído pois os botões e links têm rótulos visíveis, tornando desnecessário o uso de dicas flutuantes.</div>
+          </div>
+        </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Badge
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Não foi utilizado porque não há contadores, notificações ou rótulos numéricos no conteúdo.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+       <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          OffCanvas
+        </button>
+       </h2>
+       <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">A navegação do site é simples e não exige menus laterais recolhíveis.</div>
+        </div>
+      </div>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample align-items-center">
+        <div class="accordion-item align-items-center">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Spinners
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Como o site não tem carregamentos dinâmicos ou processos em espera, os spinners seriam irrelevantes.</div>
+    </div>
+  </div>
+        </div>
+      </div>
+</div>
+
+
+        
+
+        <footer class="bg-light text-center flex-grow absolute bottom-0 w-full text-muted py-3 mt-5 border-top">
+          <div class="container">
+            &copy; 2025 Viagens dos Sonhos — Todos os direitos reservados.
+          </div>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    </body>
+</html>
